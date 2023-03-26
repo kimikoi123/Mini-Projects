@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./digital-clock-background.jfif");
+  background-size: cover;
+}
+
+.main {
+  background: #c1bfc2;
+  width: 400px;
+  height: 200px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+}
+
+.badge {
+  background: #e66357;
+  color: white;
+  padding: 5px 10px;
+  width: 100px;
+  position: absolute;
+  top: -15px;
+  left: 40%;
+}
+
+.inside {
+  background: #ebebeb;
+  height: 100%;
+  font-family: Orbitron;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 30px;
+  border-radius: 5px;
+}
